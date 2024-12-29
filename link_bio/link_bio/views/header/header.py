@@ -2,12 +2,15 @@ import reflex as rx
 from link_bio.styles.styles import Size as Size
 from link_bio.components.link_icon import link_icon
 from link_bio.styles.styles import TextColor as TextColor
+from link_bio.styles.styles import Color as Color
 
 def header() -> rx.Component:
     return rx.vstack(
         rx.hstack(
             rx.avatar(
-                fallback="LC",
+                src="perfil.jpg",
+                color=TextColor.BODY.value,
+                bg=Color.CONTENT.value,
                 radius="full",
                 size="6"
             ),
@@ -25,19 +28,19 @@ def header() -> rx.Component:
                 ),
                 rx.hstack(
                     link_icon(
-                        "at-sign", 
+                        "linkedin", 
                         "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
                     ),
                     link_icon(
-                        "at-sign", 
+                        "github", 
                         "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
                     ),
                     link_icon(
-                        "at-sign", 
+                        "instagram", 
                         "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
                     ),
                     link_icon(
-                        "at-sign", 
+                        "messages-square", 
                         "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
                     )
                 )

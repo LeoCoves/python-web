@@ -8,25 +8,25 @@ def links() -> rx.Component:
             "Mis redes Sociales"
         ),
         link_button(
-            "at-sign",
+            "linkedin",
             "LinkedIn", 
             "Averigua más sobre mi",
             "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
         ),
         link_button(
-            "at-sign",
-            "GitHub", 
+            "github",
+            "Github", 
             "Mis proyectos",
             "https://github.com/LeoCoves"
         ),
         link_button(
-            "at-sign",
+            "twitter",
             "Twitter", 
             "Mis pensamientos",
             "https://twitter.com/LeoCoves"
         ),
         link_button(
-            "at-sign",
+            "instagram",
             "Instagram", 
             "Mas personal",
             "https://www.instagram.com/leocovess/"
@@ -35,19 +35,19 @@ def links() -> rx.Component:
             "Contactame"
         ),
         link_button(
-            "at-sign",
+            "user",
             "Mi CV", 
             "Mis experiencias",
             "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
         ),
         link_button(
-            "at-sign",
+            "messages-square",
             "Gmail", 
             "Enviame un correo",
-            "https://github.com/LeoCoves"
+            "hgnttps://github.com/LeoCoves"
         ),
         link_button(
-            "at-sign",
+            "phone-forwarded",
             "Wasap", 
             "Contactame mas rapido",
             "https://twitter.com/LeoCoves"
