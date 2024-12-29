@@ -31,7 +31,8 @@ BASE_STYLE = {
     },
     rx.link : {
         "text_decoration": "none",
-        "_hover": {}
+        "_hover": {},
+        "width": "100%"
     }
 }
 
