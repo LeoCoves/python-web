@@ -1,13 +1,16 @@
 import reflex as rx
 
+
 def navbar() -> rx.Component:
     return rx.hstack(
-        rx.text(
+        rx.box(
+            rx.text(
             "Leo Coves", 
-            color="blue", 
-            height="40px", 
-            size="5"
+            color="blue"
+            )
         ),
         position="sticky",
-        text_align="center"
+        padding=  "10px",
+        z_index=999,
+        bg="gray"
     )
