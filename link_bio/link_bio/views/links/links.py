@@ -1,9 +1,10 @@
 import reflex as rx
 from link_bio.components.link_button  import link_button
+from link_bio.components.title import title
 
 def links() -> rx.Component:
     return rx.vstack(
-        rx.text(
+        title(
             "Mis redes Sociales"
         ),
         link_button(
@@ -30,7 +31,7 @@ def links() -> rx.Component:
             "Mas personal",
             "https://www.instagram.com/leocovess/"
         ),
-        rx.text(
+        title(
             "Contactame"
         ),
         link_button(

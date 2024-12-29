@@ -45,3 +45,8 @@ button_body = {
     "font_size": Size.DEFAULT.value
 }
 
+title = {
+    "font_size": Size.MEDIUM.value,
+    "font_weight": "bold"
+}
+
