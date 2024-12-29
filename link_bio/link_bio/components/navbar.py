@@ -1,4 +1,5 @@
 import reflex as rx
+from link_bio.styles.colors import Color as Color
 
 
 def navbar() -> rx.Component:
@@ -13,5 +14,5 @@ def navbar() -> rx.Component:
         position="sticky",
         padding=  "10px",
         z_index=999,
-        bg="gray"
+        bg=Color.CONTENT.value
     )
