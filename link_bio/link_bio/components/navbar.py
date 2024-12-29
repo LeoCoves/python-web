@@ -5,8 +5,9 @@ def navbar() -> rx.Component:
     return rx.hstack(
         rx.box(
             rx.text(
-            "Leo Coves", 
-            color="blue"
+            "leocoves", 
+            color="blue",
+            font_family="monospace"
             )
         ),
         position="sticky",

@@ -25,7 +25,22 @@ BASE_STYLE = {
     rx.button : {
         "width": "100%",
         "height": "100%",
+        "display": "block",
+        "padding" : Size.SMALL.value,
+        "border_radius" : Size.DEFAULT.value
+    },
+    rx.link : {
+        "text_decoration": "none",
+        "_hover": {}
     }
 }
 
+button_title = {
+    "font_size": Size.DEFAULT.value,
+    "font_weight": "bold"
+}
+
+button_body = {
+    "font_size": Size.DEFAULT.value
+}
 

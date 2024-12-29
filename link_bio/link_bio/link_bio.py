@@ -15,11 +15,10 @@ class State(rx.State):
 def index() -> rx.Component:
     return rx.box(
         navbar(),
-        rx.center(
-            rx.vstack(
-                header(),
-                links()
-            )
+        rx.vstack(
+            header(),
+            links(),
+            padding= styles.Size.VERY_BIG.value
         ),
         footer()
     )
