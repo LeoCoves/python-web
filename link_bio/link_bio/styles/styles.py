@@ -12,12 +12,6 @@ class Size(Enum):
     VERY_BIG = "3em"
     HUGE = "4em"
 
-#Colors
-
-class Color(Enum):
-    PRIMARY = "blue"
-    SECONDARY = "green"
-    TERTIARY = "red"
 
 #Styles
 
