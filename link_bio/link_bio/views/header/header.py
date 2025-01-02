@@ -29,19 +29,23 @@ def header() -> rx.Component:
                 rx.hstack(
                     link_icon(
                         "linkedin", 
-                        "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
+                        "https://www.linkedin.com/in/leo-coves-guzman-b68554281/",
+                        "Logotipo de linkedin"
                     ),
                     link_icon(
                         "github", 
-                        "https://github.com/LeoCoves"
+                        "https://github.com/LeoCoves",
+                        "Logotipo de Github"
                     ),
                     link_icon(
                         "instagram", 
-                        "https://www.instagram.com/leocovess/"
+                        "https://www.instagram.com/leocovess/",
+                        "Logotipo de Instagram"
                     ),
                     link_icon(
                         "messages-square", 
-                        "https://mail.google.com/mail/?view=cm&fs=1&to=l.covesguzman@gmail.com"
+                        "https://mail.google.com/mail/?view=cm&fs=1&to=l.covesguzman@gmail.com",
+                        "Logotipo de Gmail"
                     )
                 )
             )

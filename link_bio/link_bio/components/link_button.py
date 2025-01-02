@@ -1,7 +1,7 @@
 import reflex as rx
 import link_bio.styles.styles as styles
 
-def link_button(icon: str, title: str, body: str, url: str) -> rx.Component:
+def link_button(icon: str, title: str, body: str, url: str, alt: str) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
@@ -24,6 +24,7 @@ def link_button(icon: str, title: str, body: str, url: str) -> rx.Component:
                 )
             )
         ),
+        alt=alt,
         href=url, 
         is_external=True
     )

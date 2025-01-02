@@ -9,6 +9,8 @@ def footer() -> rx.Component:
             rx.image(
                 src="logo.png",
                 width=styles.Size.VERY_BIG.value,
+                height=styles.Size.VERY_BIG.value,
+                alt="Logotipo de la página",
                 margin_x= "47%"
             ),
             rx.link(
