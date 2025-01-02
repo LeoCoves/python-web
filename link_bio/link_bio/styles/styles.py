@@ -34,6 +34,9 @@ BASE_STYLE = {
         "text_decoration": "none",
         "_hover": {},
         "width": "100%"
+    },
+    rx.vstack : {
+        "width": "100%"
     }
 }
 

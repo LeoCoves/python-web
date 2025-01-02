@@ -7,5 +7,6 @@ def link_icon(icon: str, url: str) -> rx.Component:
             icon
         ),
         href=url, 
-        is_external=True
+        is_external=True,
+        size="2"
     )

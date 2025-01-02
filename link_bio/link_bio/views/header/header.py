@@ -12,12 +12,12 @@ def header() -> rx.Component:
                 color=TextColor.BODY.value,
                 bg=Color.CONTENT.value,
                 radius="full",
-                size="6"
+                size="7"
             ),
             rx.vstack(
                 rx.heading(
                     "Leo Coves",
-                    size="5",
+                    size="4",
                     color=TextColor.HEADER
                 ),
                 rx.text(
@@ -33,15 +33,15 @@ def header() -> rx.Component:
                     ),
                     link_icon(
                         "github", 
-                        "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
+                        "https://github.com/LeoCoves"
                     ),
                     link_icon(
                         "instagram", 
-                        "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
+                        "https://www.instagram.com/leocovess/"
                     ),
                     link_icon(
                         "messages-square", 
-                        "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
+                        "https://mail.google.com/mail/?view=cm&fs=1&to=l.covesguzman@gmail.com"
                     )
                 )
             )
@@ -49,8 +49,10 @@ def header() -> rx.Component:
         rx.text(
             """Soy un desarrollador de software.
             Me encanta aprender y compartir conocimientos.
-            Ahora mismo estoy creando mi portafolio personal."""
+            Ahora mismo estoy creando mi portafolio personal.""",
+            text_align="center"
         ),
         color=TextColor.BODY.value,
-        spacing="4"
+        spacing="8",
+        margin_bottom="5%"
     )

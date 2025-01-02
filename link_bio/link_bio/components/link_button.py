@@ -6,7 +6,10 @@ def link_button(icon: str, title: str, body: str, url: str) -> rx.Component:
         rx.button(
             rx.hstack(
                 rx.icon(
-                    icon
+                    icon,
+                    width=styles.Size.BIG.value,
+                    height=styles.Size.BIG.value,
+                    margin = styles.Size.SMALL.value
                 ),
                 rx.vstack(
                     rx.text(
@@ -16,7 +19,8 @@ def link_button(icon: str, title: str, body: str, url: str) -> rx.Component:
                     rx.text(
                         body,
                         style = styles.button_body
-                    )
+                    ),
+                    text_align="start"
                 )
             )
         ),
