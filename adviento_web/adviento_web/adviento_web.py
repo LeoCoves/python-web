@@ -1,11 +1,12 @@
 import reflex as rx
-from adviento_web.styles import styles as styles
+import adviento_web.styles.styles as styles
+from adviento_web.views.navbar import navbar
+
 
 
 def index() -> rx.Component:
     return rx.box(
-        rx.text("¡Bienvenido a Adviento!"),
-        rx.text("En esta página encontrarás una serie de problemas matemáticos que se irán liberando cada día del mes de diciembre."),
+        navbar(),
         rx.text("Cada problema tiene una solución que se puede enviar a través de un formulario.")
     )
 
