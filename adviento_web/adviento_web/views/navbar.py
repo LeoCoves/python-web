@@ -13,12 +13,9 @@ def navbar() -> rx.Component:
                 height=Size.BIG.value
             ),
             rx.text(
-                "aDEViento 2024",
-                width="100%"
+                "aDEViento 2024"
             ),
-            rx.spacer(
-                width="100%"
-            ),
+            rx.spacer(),
             link_icon(
                 "linkedin",
                "https://www.linkedin.com/in/leo-coves-guzman-b68554281/"
@@ -34,6 +31,7 @@ def navbar() -> rx.Component:
         ),
         bg=Color.PRIMARY.value,
         position="sticky",
+        width="100%",
         border_bottom=f"0.25em solid {Color.SECONDARY.value}",
         padding_x=Size.BIG.value,
         padding_y=Size.DEFAULT.value,

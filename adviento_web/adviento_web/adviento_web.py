@@ -1,13 +1,17 @@
 import reflex as rx
 import adviento_web.styles.styles as styles
 from adviento_web.views.navbar import navbar
+from adviento_web.views.header import header
 
 
 
 def index() -> rx.Component:
     return rx.box(
         navbar(),
-        rx.text("Cada problema tiene una solución que se puede enviar a través de un formulario.")
+        rx.vstack(
+                header(),
+                spacing="9"
+        )
     )
 
 app = rx.App(

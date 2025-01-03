@@ -5,6 +5,8 @@ from .colors import Text_Color as Text_Color
 from .colors import Color as Color
 
 
+MAX_WIDTH = "1000px"
+
 class Size(Enum):
     SMALL = "0.5em"
     DEFAULT = "1em"
@@ -21,4 +23,21 @@ BASE_STYLE = {
     "font_family": Font.DEFAULT.value,
     "color" : Text_Color.PRIMARY.value,
     "background_color": Color.PRIMARY.value,
+    rx.vstack:{
+        "padding": Size.SMALL.value,
+        "width": "100%",
+    },
+    rx.heading:{
+        "color": Text_Color.ACCENT.value,
+    },
+    rx.link: {
+        "text_decoration":"none",
+        "_hover": {
+            "color": Text_Color.ACCENT.value,
+            "text_decoration":"none"
+        }
+    },
+    rx.text.span: {
+        "font_size": "0.8em"
+    }
 }
