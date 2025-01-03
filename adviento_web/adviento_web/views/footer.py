@@ -10,15 +10,17 @@ def footer() -> rx.Component:
                     "© 2025 Adviento"
                 ),
                 rx.text(
-                    "Creado con Reflex por Leo Coves"
-                )
+                    "Creado con Reflex por Leo Coves",
+                    color=styles.Text_Color.TERTIARY.value
+                ),
+                font_size="0.8em"
             ),
             rx.spacer(),
             rx.image(
                 src="logo.png",
                 alt="Logo de Leo Coves",
-                width=Size.BIG.value,
-                height=Size.BIG.value
+                width=Size.VERY_BIG.value,
+                height=Size.VERY_BIG.value
             ),
             max_width=styles.MAX_WIDTH
         ),

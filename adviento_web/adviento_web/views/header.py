@@ -23,7 +23,7 @@ def header() -> rx.Component:
                     rx.box(
                         rx.text("24 dias. 24 regalos"),
                         rx.text("Del 1 al 24 de diciembre"),
-                        class_name="nes-balloon from-left is-dark"
+                        class_name="nes-balloon from-left is-dark",
                     ),
                     rx.text.span(
                         "Por segundo año, ¡aquí está el calendario de adviento sorpresa de nuestra",
@@ -48,7 +48,7 @@ def header() -> rx.Component:
                         padding_top=Size.BIG.value,
                         font_size=Size.DEFAULT.value,
                         width="100%",
-                        text_align="center"
+                        text_align="start"
                     )
                 ),
                 flex_direction=["column", "column", "column", "row"],
