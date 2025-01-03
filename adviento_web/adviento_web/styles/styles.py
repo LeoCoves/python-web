@@ -39,5 +39,13 @@ BASE_STYLE = {
     },
     rx.text.span: {
         "font_size": "0.8em"
+    },
+    rx.button: {
+        "margin_bottom": Size.DEFAULT.value,
+        "height": Size.BIG.value,
+        "color": Text_Color.SECONDARY.value,
+        "_hover": {
+            "color": Text_Color.PRIMARY.value
+        }
     }
 }
