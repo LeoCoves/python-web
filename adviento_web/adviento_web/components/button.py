@@ -8,6 +8,7 @@ def button(text: str, url: str) -> rx.Component:
             background_color=Color.ACCENT.value
             # class_name="nes-btn is-error"
         ),
+        padding="0.5em",
         href=url,
         is_external=True
     )

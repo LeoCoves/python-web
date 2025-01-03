@@ -4,6 +4,7 @@ from adviento_web.views.navbar import navbar
 from adviento_web.views.header import header
 from adviento_web.views.footer import footer
 from adviento_web.views.instructions import instructions
+from adviento_web.views.author import author
 
 
 
@@ -13,6 +14,7 @@ def index() -> rx.Component:
         rx.vstack(
                 header(),
                 instructions(),
+                author(),
                 footer(),
                 spacing="9"
         ),

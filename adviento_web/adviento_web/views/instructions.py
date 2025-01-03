@@ -12,20 +12,20 @@ def instructions() -> rx.Component:
                     color=styles.Color.ACCENT.value
                 ),
                 rx.text.span(
-                    "Del 1 al 24 de diciembre, se publicará un reto diario en el que tendrás que resolver un problema de programación."
+                    "· Del 1 al 24 de diciembre, se publicará un reto diario en el que tendrás que resolver un problema de programación."
                 ),
                 rx.text.span(
-                    "Puedes resolver el reto en el lenguaje de programación que prefieras."
+                    "· Puedes resolver el reto en el lenguaje de programación que prefieras."
                 ),
                 rx.text.span(
-                    "Para enviar tu solución, deberás hacer un pull request en el repositorio de GitHub."
+                    "· Para enviar tu solución, deberás hacer un pull request en el repositorio de GitHub."
                 ),
                 button(
                     "GitHub",
-                    "https://github.com/LeoCoves/python_web/adviento_web"
+                    "https://github.com/LeoCoves/python-web"
                 ),
                 rx.text.span(
-                    "Si tienes alguna duda, puedes contactarme por cualquiera de mis redes sociales."
+                    "· Si tienes alguna duda, puedes contactarme por cualquiera de mis redes sociales."
                 ),
                 button(
                     "Instagram",
