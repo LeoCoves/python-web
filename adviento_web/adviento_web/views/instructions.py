@@ -33,7 +33,8 @@ def instructions() -> rx.Component:
                 ),
                 rx.text.span(),
                 class_name="nes-container is-dark with-title",
-                width="100%"
+                width="100%",
+                padding=styles.Size.DEFAULT.value
             ),
             max_width = styles.MAX_WIDTH
         ),
