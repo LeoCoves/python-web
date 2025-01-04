@@ -5,6 +5,7 @@ from adviento_web.views.header import header
 from adviento_web.views.footer import footer
 from adviento_web.views.instructions import instructions
 from adviento_web.views.author import author
+from adviento_web.views.patners import patners
 
 
 
@@ -15,10 +16,12 @@ def index() -> rx.Component:
                 header(),
                 instructions(),
                 author(),
+                patners(),
                 footer(),
-                spacing="9"
-        ),
-        
+                spacing="9",
+                margin="0px",
+                padding="0px"
+        )
     )
 
 app = rx.App(

@@ -8,7 +8,8 @@ def author() -> rx.Component:
         rx.vstack(
             header_text(
                 "like",
-                "Hola, mi nombre es Leo Coves"
+                "Hola, mi nombre es Leo Coves",
+                True
             ),
             rx.hstack(
                 rx.flex(
