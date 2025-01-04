@@ -1,6 +1,7 @@
 import reflex as rx
 from link_bio.components.link_button  import link_button
 from link_bio.components.title import title
+from link_bio.constants import URL
 
 def links() -> rx.Component:
     return rx.center(
@@ -12,7 +13,7 @@ def links() -> rx.Component:
                 "linkedin",
                 "LinkedIn", 
                 "Averigua más sobre mi",
-                "https://www.linkedin.com/in/leo-coves-guzman-b68554281/",
+                URL.URL_LINKEDIN,
                 "Logotipo de LinkedIn",
                 False
             ),
@@ -20,7 +21,7 @@ def links() -> rx.Component:
                 "github",
                 "Github", 
                 "Mis proyectos",
-                "https://github.com/LeoCoves",
+                URL.URL_GITHUB,
                 "Logotipo de Github",
                 False
             ),
@@ -28,7 +29,7 @@ def links() -> rx.Component:
                 "twitter",
                 "Twitter", 
                 "Mis pensamientos",
-                "https://twitter.com/LeoCoves",
+                URL.URL_TWITTER,
                 "Logotipo de Twitter",
                 True
             ),
@@ -36,7 +37,7 @@ def links() -> rx.Component:
                 "instagram",
                 "Instagram", 
                 "Mas personal",
-                "https://www.instagram.com/leocovess/",
+                URL.URL_INSTAGRAM,
                 "Logotipo de Instagram",
                 False
             ),
@@ -47,7 +48,7 @@ def links() -> rx.Component:
                 "user",
                 "Mi CV", 
                 "Mis experiencias",
-                "/download/CVdev.pdf",
+                URL.URL_CV,
                 "Logotipo de un CV",
                 False
             ),
@@ -55,7 +56,7 @@ def links() -> rx.Component:
                 "messages-square",
                 "Gmail", 
                 "Enviame un correo",
-                "https://mail.google.com/mail/?view=cm&fs=1&to=l.covesguzman@gmail.com",
+                URL.URL_GMAIL,
                 "Logotipo de Gmail",
                 False
             ),
@@ -63,7 +64,7 @@ def links() -> rx.Component:
                 "phone-forwarded",
                 "WhatsApp", 
                 "Contactame mas rapido",
-                "https://web.whatsapp.com/send?phone=34675181093",
+                URL.URL_WHATSAPP,
                 "Logotipo de Whatsapp",
                 True
             )

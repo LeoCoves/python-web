@@ -2,6 +2,7 @@ import reflex as rx
 import datetime
 from link_bio.styles.colors import TextColor as TextColor
 from link_bio.styles import styles as styles
+from link_bio.constants import URL
 
 def footer() -> rx.Component:
     return rx.center(
@@ -20,7 +21,7 @@ def footer() -> rx.Component:
                     f"© 2023-{datetime.datetime.today().year} by Leo Coves"
                 ),
                 color=TextColor.FOOTER,
-                href="/download/CVdev.pdf",
+                href=URL.URL_CV,
                 is_external=True
             ),
             rx.link(
@@ -30,7 +31,7 @@ def footer() -> rx.Component:
                     color=TextColor.FOOTER,
                     text_align="center"
                 ),
-                href="https://reflex.dev/docs/library/",
+                href=URL.URL_REFLEX,
                 is_external=True
             ),
             margin_bottom=styles.Size.BIG.value,

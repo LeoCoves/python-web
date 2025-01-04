@@ -4,6 +4,7 @@ from link_bio.styles.styles import Size as Size
 from link_bio.components.link_icon import link_icon
 from link_bio.styles.styles import TextColor as TextColor
 from link_bio.styles.styles import Color as Color
+from link_bio.constants import URL
 
 def header() -> rx.Component:
     return rx.center(
@@ -31,22 +32,22 @@ def header() -> rx.Component:
                     rx.hstack(
                         link_icon(
                             "linkedin", 
-                            "https://www.linkedin.com/in/leo-coves-guzman-b68554281/",
+                            URL.URL_LINKEDIN,
                             "Logotipo de linkedin"
                         ),
                         link_icon(
                             "github", 
-                            "https://github.com/LeoCoves",
+                            URL.URL_GITHUB,
                             "Logotipo de Github"
                         ),
                         link_icon(
                             "instagram", 
-                            "https://www.instagram.com/leocovess/",
+                            URL.URL_INSTAGRAM,
                             "Logotipo de Instagram"
                         ),
                         link_icon(
                             "messages-square", 
-                            "https://mail.google.com/mail/?view=cm&fs=1&to=l.covesguzman@gmail.com",
+                            URL.URL_GMAIL,
                             "Logotipo de Gmail"
                         )
                     )
