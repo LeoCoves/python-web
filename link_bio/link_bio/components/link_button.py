@@ -1,7 +1,7 @@
 import reflex as rx
 import link_bio.styles.styles as styles
 
-def link_button(icon: str, title: str, body: str, url: str, alt: str) -> rx.Component:
+def link_button(icon: str, title: str, body: str, url: str, alt: str, disabled: bool) -> rx.Component:
     return rx.link(
         rx.button(
             rx.hstack(
@@ -22,7 +22,8 @@ def link_button(icon: str, title: str, body: str, url: str, alt: str) -> rx.Comp
                     ),
                     text_align="start"
                 )
-            )
+            ),
+            disabled=disabled
         ),
         alt=alt,
         href=url, 

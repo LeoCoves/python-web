@@ -13,28 +13,32 @@ def links() -> rx.Component:
                 "LinkedIn", 
                 "Averigua más sobre mi",
                 "https://www.linkedin.com/in/leo-coves-guzman-b68554281/",
-                "Logotipo de LinkedIn"
+                "Logotipo de LinkedIn",
+                False
             ),
             link_button(
                 "github",
                 "Github", 
                 "Mis proyectos",
                 "https://github.com/LeoCoves",
-                "Logotipo de Github"
+                "Logotipo de Github",
+                False
             ),
             link_button(
                 "twitter",
                 "Twitter", 
                 "Mis pensamientos",
                 "https://twitter.com/LeoCoves",
-                "Logotipo de Twitter"
+                "Logotipo de Twitter",
+                True
             ),
             link_button(
                 "instagram",
                 "Instagram", 
                 "Mas personal",
                 "https://www.instagram.com/leocovess/",
-                "Logotipo de Instagram"
+                "Logotipo de Instagram",
+                False
             ),
             title(
                 "Contactame"
@@ -43,22 +47,25 @@ def links() -> rx.Component:
                 "user",
                 "Mi CV", 
                 "Mis experiencias",
-                "https://www.linkedin.com/in/leo-coves-guzman-b68554281/",
-                "Logotipo de un CV"
+                "/download/CVdev.pdf",
+                "Logotipo de un CV",
+                False
             ),
             link_button(
                 "messages-square",
                 "Gmail", 
                 "Enviame un correo",
                 "https://mail.google.com/mail/?view=cm&fs=1&to=l.covesguzman@gmail.com",
-                "Logotipo de Gmail"
+                "Logotipo de Gmail",
+                False
             ),
             link_button(
                 "phone-forwarded",
-                "Wasap", 
+                "WhatsApp", 
                 "Contactame mas rapido",
                 "https://web.whatsapp.com/send?phone=34675181093",
-                "Logotipo de Whatsapp"
+                "Logotipo de Whatsapp",
+                True
             )
         ),
         width="100%",

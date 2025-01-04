@@ -4,7 +4,8 @@ import link_bio.styles.styles as styles
 def link_icon(icon: str, url: str, alt: str) -> rx.Component:
     return rx.link(
         rx.icon(
-            icon
+            icon,
+            color=styles.TextColor.HEADER.value
         ),
         alt=alt,
         href=url, 
