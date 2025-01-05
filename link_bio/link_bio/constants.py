@@ -10,3 +10,4 @@ class URL:
     URL_CV = "/download/CVdev.pdf"
     URL_WHATSAPP = "https://web.whatsapp.com/send?phone=34675181093"
     URL_REFLEX = "https://reflex.dev/docs/library/"
+    URL_CURSOS = "/cursos"

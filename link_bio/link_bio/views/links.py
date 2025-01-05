@@ -27,11 +27,11 @@ def links() -> rx.Component:
             ),
             link_button(
                 "twitter",
-                "Twitter", 
+                "Cursos", 
                 "Mis pensamientos",
-                URL.URL_TWITTER,
+                URL.URL_CURSOS,
                 "Logotipo de Twitter",
-                True
+                False
             ),
             link_button(
                 "instagram",
